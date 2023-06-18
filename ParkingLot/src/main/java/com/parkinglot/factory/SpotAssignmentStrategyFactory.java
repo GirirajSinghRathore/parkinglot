@@ -1,4 +1,4 @@
-package com.parkinglot.strategies.spotassignmentstrategy.factory;
+package com.parkinglot.factory;
 
 import com.parkinglot.model.SpotAssignmentStrategyType;
 import com.parkinglot.repository.ParkingLotRepository;
