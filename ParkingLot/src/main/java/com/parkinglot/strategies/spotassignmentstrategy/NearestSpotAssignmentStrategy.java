@@ -10,6 +10,7 @@ import com.parkinglot.model.ParkingSpotStatus;
 import com.parkinglot.model.SpotAssignmentStrategyType;
 import com.parkinglot.model.VehicleType;
 import com.parkinglot.repository.ParkingLotRepository;
+import com.parkinglot.strategies.SpotAsignmentStrategy;
 
 public class NearestSpotAssignmentStrategy implements SpotAsignmentStrategy{
 	ParkingLotRepository parkingLotRepository;

@@ -13,7 +13,7 @@ import com.parkinglot.repository.GateRepository;
 import com.parkinglot.repository.ParkingLotRepository;
 import com.parkinglot.repository.TicketRepository;
 import com.parkinglot.repository.VehicleRepository;
-import com.parkinglot.strategies.spotassignmentstrategy.SpotAsignmentStrategy;
+import com.parkinglot.strategies.SpotAsignmentStrategy;
 
 public class TicketService {
 	GateRepository gateRepository;
