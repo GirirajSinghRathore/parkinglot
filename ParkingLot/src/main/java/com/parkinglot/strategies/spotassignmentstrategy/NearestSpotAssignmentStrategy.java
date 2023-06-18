@@ -1,4 +1,4 @@
-package com.parkinglot.model.service.strategies.spotassignmentstrategy;
+package com.parkinglot.strategies.spotassignmentstrategy;
 
 import java.util.Iterator;
 
@@ -9,7 +9,7 @@ import com.parkinglot.model.ParkingSpot;
 import com.parkinglot.model.ParkingSpotStatus;
 import com.parkinglot.model.SpotAssignmentStrategyType;
 import com.parkinglot.model.VehicleType;
-import com.parkinglot.model.service.repository.ParkingLotRepository;
+import com.parkinglot.repository.ParkingLotRepository;
 
 public class NearestSpotAssignmentStrategy implements SpotAsignmentStrategy{
 	ParkingLotRepository parkingLotRepository;

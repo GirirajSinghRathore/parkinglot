@@ -1,4 +1,4 @@
-package com.parkinglot.model.service;
+package com.parkinglot.service;
 
 import java.sql.Date;
 import java.util.Optional;
@@ -8,12 +8,12 @@ import com.parkinglot.model.SpotAssignmentStrategyType;
 import com.parkinglot.model.Ticket;
 import com.parkinglot.model.Vehicle;
 import com.parkinglot.model.VehicleType;
-import com.parkinglot.model.service.repository.GateRepository;
-import com.parkinglot.model.service.repository.ParkingLotRepository;
-import com.parkinglot.model.service.repository.TicketRepository;
-import com.parkinglot.model.service.repository.VehicleRepository;
-import com.parkinglot.model.service.strategies.spotassignmentstrategy.SpotAsignmentStrategy;
-import com.parkinglot.model.service.strategies.spotassignmentstrategy.factory.SpotAssignmentStrategyFactory;
+import com.parkinglot.repository.GateRepository;
+import com.parkinglot.repository.ParkingLotRepository;
+import com.parkinglot.repository.TicketRepository;
+import com.parkinglot.repository.VehicleRepository;
+import com.parkinglot.strategies.spotassignmentstrategy.SpotAsignmentStrategy;
+import com.parkinglot.strategies.spotassignmentstrategy.factory.SpotAssignmentStrategyFactory;
 
 public class TicketService {
 	GateRepository gateRepository;

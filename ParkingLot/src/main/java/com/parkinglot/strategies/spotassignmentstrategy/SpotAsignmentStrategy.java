@@ -1,4 +1,4 @@
-package com.parkinglot.model.service.strategies.spotassignmentstrategy;
+package com.parkinglot.strategies.spotassignmentstrategy;
 
 import com.parkinglot.model.Gate;
 import com.parkinglot.model.ParkingSpot;

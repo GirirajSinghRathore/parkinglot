@@ -1,4 +1,4 @@
-package com.parkinglot.model.service.repository;
+package com.parkinglot.repository;
 
 import java.util.HashMap;
 import java.util.Map;

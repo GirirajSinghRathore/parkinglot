@@ -1,4 +1,4 @@
-package com.parkinglot.model.dto;
+package com.parkinglot.dto;
 
 import com.parkinglot.model.Ticket;
 

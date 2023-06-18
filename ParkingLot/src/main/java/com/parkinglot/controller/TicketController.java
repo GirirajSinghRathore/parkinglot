@@ -1,10 +1,10 @@
-package com.parkinglot.model.controller;
+package com.parkinglot.controller;
 
+import com.parkinglot.dto.IssueTicketRequestDto;
+import com.parkinglot.dto.IssueTicketResposeDto;
+import com.parkinglot.dto.ResponseStatus;
 import com.parkinglot.model.Ticket;
-import com.parkinglot.model.dto.IssueTicketRequestDto;
-import com.parkinglot.model.dto.IssueTicketResposeDto;
-import com.parkinglot.model.dto.ResponseStatus;
-import com.parkinglot.model.service.TicketService;
+import com.parkinglot.service.TicketService;
 
 public class TicketController {
 	private TicketService ticketService;

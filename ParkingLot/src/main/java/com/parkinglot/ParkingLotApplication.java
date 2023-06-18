@@ -1,12 +1,12 @@
 package com.parkinglot;
 
-import com.parkinglot.model.controller.TicketController;
-import com.parkinglot.model.service.TicketService;
-import com.parkinglot.model.service.repository.GateRepository;
-import com.parkinglot.model.service.repository.ParkingLotRepository;
-import com.parkinglot.model.service.repository.TicketRepository;
-import com.parkinglot.model.service.repository.VehicleRepository;
-import com.parkinglot.model.service.strategies.spotassignmentstrategy.factory.SpotAssignmentStrategyFactory;
+import com.parkinglot.controller.TicketController;
+import com.parkinglot.repository.GateRepository;
+import com.parkinglot.repository.ParkingLotRepository;
+import com.parkinglot.repository.TicketRepository;
+import com.parkinglot.repository.VehicleRepository;
+import com.parkinglot.service.TicketService;
+import com.parkinglot.strategies.spotassignmentstrategy.factory.SpotAssignmentStrategyFactory;
 
 public class ParkingLotApplication {
 	public static void main(String[] args) {
